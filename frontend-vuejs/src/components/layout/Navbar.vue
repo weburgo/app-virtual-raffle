@@ -1,5 +1,4 @@
 <template>
-  <!-- Announcement Banner -->
   <a class="group block bg-gray-100 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 p-4 rounded-lg text-center transition duration-300"
     href="#">
     <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
@@ -16,14 +15,10 @@
       </span>
     </div>
   </a>
-  <!-- End Announcement Banner -->
-
-  <!-- ========== HEADER ========== -->
   <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-4">
     <nav
       class="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
       <div class="lg:col-span-3 flex items-center">
-        <!-- Logo -->
         <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
           href="index.html" aria-label="Preline">
           <div class="flex items-center space-x-2">
@@ -38,11 +33,9 @@
             <h1 class="font-bold">Virtual Rifa</h1>
           </div>
         </a>
-        <!-- End Logo -->
         <div class="ms-1 sm:ms-2">
         </div>
       </div>
-      <!-- Button Group -->
       <div class="flex items-center gap-x-1 lg:gap-x-2 ms-auto py-1 lg:ps-6 lg:order-3 lg:col-span-3">
         <button type="button"
           class="size-9.5 relative flex justify-center items-center rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
@@ -88,8 +81,6 @@
           </button>
         </div>
       </div>
-      <!-- End Button Group -->
-      <!-- Collapse -->
       <div id="hs-pro-hcail"
         class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block lg:w-auto lg:basis-auto lg:order-2 lg:col-span-6"
         aria-labelledby="hs-pro-hcail-collapse">
@@ -113,24 +104,6 @@
           </div>
         </div>
       </div>
-      <!-- End Collapse -->
     </nav>
   </header>
-  <!-- ========== END HEADER ========== -->
-  <!-- Hero -->
-  <!-- <div
-    class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/squared-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/squared-bg-element.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-1 before:transform before:-translate-x-1/2">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
-      <div class="mt-5 max-w-xl text-center mx-auto">
-        <h1 class="block font-bold text-gray-800 text-2xl md:text-2xl lg:text-4xl dark:text-neutral-200">
-          Escolha seu número e boa sorte!
-        </h1>
-      </div>
-      <div class="mt-5 max-w-3xl text-center mx-auto">
-        <p class="text-lg text-gray-600 dark:text-neutral-400">Somente é possível adquirir um número por vez.</p>
-      </div>
-    </div>
-  </div> -->
-  <!-- End Hero -->
-
 </template>
